@@ -39,6 +39,7 @@ class MultiVersionTestPluginPluginFunctionalTest {
 
         // Run the build
         BuildResult result = GradleRunner.create()
+            .withGradleVersion("8.9")
             .forwardOutput()
             .withPluginClasspath()
             .withArguments("greeting")
