@@ -12,7 +12,7 @@ plugins {
 
 repositories {
     maven {
-        url = uri("https://repo.grdev.net/artifactory/libs-snapshots-local")
+        url = uri("https://repo.gradle.org/artifactory/libs-snapshots")
     }
     mavenCentral()
 }

@@ -4,7 +4,7 @@ plugins {
 
 repositories {
     maven {
-        url = uri("https://repo.grdev.net/artifactory/libs-releases-local")
+        url = uri("https://repo.gradle.org/artifactory/libs-releases")
     }
     mavenCentral()
 }
